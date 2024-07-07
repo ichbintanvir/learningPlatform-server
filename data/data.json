@@ -1,0 +1,170 @@
+[
+    {
+        "id": 101,
+        "category": "HTML",
+        "question": "What is HTML?",
+        "answer": "HTML stands for HyperText Markup Language and is the language of the internet."
+    },
+    {
+        "id": 102,
+        "category": "HTML",
+        "question": "What are HTML tags?",
+        "answer": "We use HTML tags for placing the elements in the proper and appropriate format. Tags use the symbols <, and > to set them apart from the HTML content. The HTML tags need not be closed always. For example, in the case of images, the closing tags are not required as <img> tag."
+    },
+    {
+        "id": 103,
+        "category": "HTML",
+        "question": "What are HTML Attributes?",
+        "answer": "Attributes are the properties that can be added to an HTML tag. These attributes change the way the tag behaves or is displayed. For example, a <img> tag has an src attribute, which you use to add the source from which the image should be displayed. We add attributes right after the name of the HTML tag, inside the brackets."
+    },
+    {
+        "id": 104,
+        "category": "HTML",
+        "question": "How do you separate a section of texts in HTML?",
+        "answer": "We separate a section of texts in HTML using the below tags: <br> tag, <p> tag, and <blockquote> tag."
+    },
+    {
+        "id": 105,
+        "category": "HTML",
+        "question": "Define the list types in HTML?",
+        "answer": "Ordered list [The ordered list uses <ol> tag.], Unordered list [The unordered list uses <ul> tag.], Definition list [The definition list uses <dl>, <dt>, <dd> tags.]"
+    },
+    {
+        "id": 201,
+        "category": "CSS",
+        "question": "Name some CSS frameworks.",
+        "answer": "CSS frameworks are libraries that make web page styling easier. Some of them are Foundation, Bootstrap, Gumby, Ukit, Semantic UI, etc."
+    },
+    {
+        "id": 202,
+        "category": "CSS",
+        "question": "What are the elements of the CSS Box Model?",
+        "answer": "The CSS box model defines the layout and design of CSS elements. The elements are content (like text and images, padding (the area around content), border (the area around padding), and margin (the area around the border). "
+    },
+    {
+        "id": 203,
+        "category": "CSS",
+        "question": "Differentiate between CSS3 and CSS2.",
+        "answer": "The main difference between CSS3 and CSS2 is that CSS divides different sections into modules and supports many browsers. It also contains new General Sibling Combinators responsible for matching similar elements. "
+    },
+    {
+        "id": 204,
+        "category": "CSS",
+        "question": "Explain a few advantages of CSS. ",
+        "answer": "With CSS, different documents can be controlled using a single site, styles can be grouped in complex situations using selectors and grouping methods, and multiple HTML elements can have classes. "
+    },
+    {
+        "id": 205,
+        "category": "CSS",
+        "question": "What was the purpose of developing CSS?",
+        "answer": "CSS was developed to define the visual appearances of websites. It allows developers to separate the structure and content of a website that was not possible before."
+    },
+    {
+        "id": 206,
+        "category": "CSS",
+        "question": "What is the difference between a class and an ID?",
+        "answer": "Class is a way of using HTML elements for styling. They are not unique and have multiple elements. Whereas ID is unique and it can be assigned to a single element. "
+    },
+    {
+        "id": 207,
+        "category": "CSS",
+        "question": "Explain responsive web design.",
+        "answer": "Responsive Design is a web page creation approach that uses flexible images, flexible layouts, and CSS media queries. This design approach aims to build web pages that detect the orientation and screen size of the visitors so that the layout can be changed accordingly. "
+    },
+    {
+        "id": 301,
+        "category": "JS",
+        "question": "What do you understand about JavaScript?",
+        "answer": "JavaScript is a popular web scripting language and is used for client-side and server-side development. The JavaScript code can be inserted into HTML pages that can be understood and executed by web browsers while also supporting object-oriented programming abilities."
+    },
+    {
+        "id": 302,
+        "category": "JS",
+        "question": "What’s the difference between JavaScript and Java?",
+        "answer": "JavaScript applications are meant to run inside a web browser. Java applications are generally made for use in operating systems and virtual machines. JavaScript does not need compilation before running the application code. Java source code needs a compiler before it can be ready to run in realtime."
+    },
+    {
+        "id": 303,
+        "category": "JS",
+        "question": "What are the scopes of a variable in JavaScript?",
+        "answer": "There are two scopes of a variable: Global Scope and Local Scope. Global Scope Global variables, having global scope are available everywhere in a JavaScript code. Local Scope Local variables are accessible only within a function in which they are defined."
+    },
+    {
+        "id": 304,
+        "category": "JS",
+        "question": "What is the ‘this’ keyword in JavaScript?",
+        "answer": "The ‘this’ keyword in JavaScript refers to the currently calling object. It is commonly used in constructors to assign values to object properties."
+    },
+    {
+        "id": 305,
+        "category": "JS",
+        "question": "What’s the difference between let and var?",
+        "answer": "Both let and var are used for variable and method declarations in JavaScript. So there isn’t much of a difference between these two besides that while var keyword is scoped by function, the let keyword is scoped by a block."
+    },
+    {
+        "id": 306,
+        "category": "JS",
+        "question": "Difference between “ == “ and “ === “ operators",
+        "answer": "“==” operator is a comparison operator that used to compare the values and “===” operator is also a comparison operator that is used to compare the values as well as types."
+    },
+    {
+        "id": 401,
+        "category": "React JS",
+        "question": "What is JSX?",
+        "answer": "JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code."
+    },
+    {
+        "id": 402,
+        "category": "React JS",
+        "question": "Can web browsers read JSX directly?",
+        "answer": "Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular JavaScript object. For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript object. For this, we use Babel"
+    },
+    {
+        "id": 403,
+        "category": "React JS",
+        "question": "What is the virtual DOM?",
+        "answer": "DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects.React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. "
+    },
+    {
+        "id": 404,
+        "category": "React JS",
+        "question": "What is a higher-order component in React?",
+        "answer": "A higher-order component acts as a container for other components. This helps to keep components simple and enables re-usability. They are generally used when multiple components have to use a common logic. "
+    },
+    {
+        "id": 405,
+        "category": "React JS",
+        "question": "What is Redux?",
+        "answer": "Redux is an open-source, JavaScript library used to manage the application state. React uses Redux to build the user interface. It is a predictable state container for JavaScript applications and is used for the entire application’s state management."
+    },
+    {
+        "id": 501,
+        "category": "Express JS",
+        "question": "What is the Express.js package?",
+        "answer": "Express is a flexible Node.js web application framework that provides a wide set of features to develop both web and mobile applications"
+    },
+    {
+        "id": 502,
+        "category": "Express JS",
+        "question": "How do you create a simple Express.js application?",
+        "answer": "The request object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on. The response object represents the HTTP response that an Express app sends when it receives an HTTP request"
+    },
+    {
+        "id": 503,
+        "category": "Express JS",
+        "question": "What is the control flow function?",
+        "answer": "The control flow function is a piece of code that runs in between several asynchronous function calls."
+    },
+    {
+        "id": 504,
+        "category": "Express JS",
+        "question": "What is the buffer class in Node.js?",
+        "answer": "Buffer class stores raw data similar to an array of integers but corresponds to a raw memory allocation outside the V8 heap. Buffer class is used because pure JavaScript is not compatible with binary data"
+    },
+    {
+        "id": 505,
+        "category": "Express JS",
+        "question": "What is callback hell?",
+        "answer": "Callback hell, also known as the pyramid of doom, is the result of intensively nested, unreadable, and unmanageable callbacks, which in turn makes the code harder to read and debugimproper implementation of the asynchronous logic causes callback hell"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "category": "HTML"
+    },
+    {
+        "id": 2,
+        "category": "CSS"
+    },
+    {
+        "id": 3,
+        "category": "JS"
+    },
+    {
+        "id": 4,
+        "category": "React JS"
+    },
+    {
+        "id": 5,
+        "category": "Express JS"
+    }
+]

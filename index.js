@@ -6,9 +6,17 @@ const category = require('./data/category.json')
 const data = require('./data/data.json')
 
 // app.use(cors())
+
+// app.use(cors({
+//     origin: "*",
+//     credentials: true,
+// }))
+
 app.use(cors({
-    origin: "*",
-    credentials: true,
+    "origin": "*",
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "preflightContinue": false,
+    "optionsSuccessStatus": 204
 }))
 
 app.get('/', (req, res) => {
